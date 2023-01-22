@@ -6,7 +6,7 @@ With MailMatic, users can submit notes in a textbox and the AI will write an ema
 
 ## Technology stack
 
-Under the hood MailMatic is running [OpenAI's GTP-3 model Davinci](https://beta.openai.com/docs/models/gpt-3). The interactions with Davinci are handles by a servless AWS backend written in Python. The frontend is built with [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/) in Typescript and is hosted on [Vercel](https://vercel.com/dashboard). User authentication is handled via [Firebase](https://firebase.google.com/). Users can submit a maximum of 5 requests per hours. The rate limiter is implemented using [Reids](https://redis.com/).
+Under the hood MailMatic is running [OpenAI's GTP-3 model Davinci](https://beta.openai.com/docs/models/gpt-3). The interactions with Davinci are handles by a servless AWS backend written in Python. The frontend is built with [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/) in Typescript and is hosted on [Vercel](https://vercel.com/dashboard). User authentication is handled via [Firebase](https://firebase.google.com/). Users can submit a maximum of 5 requests per hours. The rate limiter is implemented using [Redis](https://redis.com/).
 
 ![mailmatic-architecture](./img/mailmatic-architecture.png)
 
@@ -43,3 +43,7 @@ Once the AWS infrastructure has been set up, you can run the application and it 
 cd mailmatic-site
 npm run dev
 ```
+
+## Specical thanks
+
+A big thank you to @pixegami for the helpful tutorials. Your videos helped me tremendously in this project.
