@@ -48,4 +48,4 @@ npm run dev
 
 ## Specical thanks
 
-A big thank you to @pixegami for the helpful tutorials. Your videos helped me tremendously in this project.
+A big thank you to [@pixegami](https://github.com/pixegami) for the helpful tutorials. Your videos helped me tremendously in this project.
