@@ -16,7 +16,7 @@ const Main = () => {
       const response = await fetch(`/api/getemail?notes=${notes}`);
       if (response.status === 429) {
         errorNotification(
-          "Request limit reached. Please sign in for more requests."
+          "Request limit per hour reached. Please wait for some time before making another request."
         );
         setIsLoading(false);
         return Promise.reject();
