@@ -4,6 +4,8 @@ MailMatic is a simple web app that helps users write perfect emails with ease.
 
 With MailMatic, users can submit notes in a textbox and the AI will write an email for them. Users without an account can submit notes with a maximum of 150 characters, while registered users can submit up to 300 characters.
 
+![mailmatic-demo](./img/demo.gif)
+
 ## Technology stack
 
 Under the hood MailMatic is running [OpenAI's GTP-3 model Davinci](https://beta.openai.com/docs/models/gpt-3). The interactions with Davinci are handles by a servless AWS backend written in Python. The frontend is built with [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/) in Typescript and is hosted on [Vercel](https://vercel.com/dashboard). User authentication is handled via [Firebase](https://firebase.google.com/). Users can submit a maximum of 5 requests per hours. The rate limiter is implemented using [Redis](https://redis.com/).
