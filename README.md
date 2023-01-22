@@ -1,10 +1,12 @@
-# MailMatic
+# [MailMatic](https://mailmatic.vercel.app/)
 
 MailMatic is a simple web app that helps users write perfect emails with ease.
 
 With MailMatic, users can submit notes in a textbox and the AI will write an email for them.
 
 Users wihout an account can submit notes of up to 150 characters, while registered users can submit notes of up to 300 characters. Additionally, users are limited to a maximum of five submissions per hour.
+
+A demo can be viewed below. To access the application, click on this link: [mailmatic.vercel.app](https://mailmatic.vercel.app/).
 
 ![mailmatic-demo](./img/demo.gif)
 
