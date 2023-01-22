@@ -50,6 +50,6 @@ cd mailmatic-site
 npm run dev
 ```
 
-## Specical thanks
+## Special thanks
 
 A big thank you to [@pixegami](https://github.com/pixegami) for the helpful tutorials. Your videos helped me tremendously in this project.
