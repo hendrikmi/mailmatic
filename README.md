@@ -10,7 +10,7 @@ A demo can be viewed below. To access the application, click on this link: [mail
 
 ## Technology stack
 
-Under the hood MailMatic is running [OpenAI's GTP-3 model Davinci](https://beta.openai.com/docs/models/gpt-3). The interactions with Davinci are handled by a serverless AWS backend written in Python. The frontend is built with [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/) written in Typescript and is hosted on [Vercel](https://vercel.com/dashboard). User authentication is handled via [Firebase](https://firebase.google.com/). The rate limiter is implemented using [Redis](https://redis.com/).
+Under the hood MailMatic is running [OpenAI's GTP-3 model Davinci](https://beta.openai.com/docs/models/gpt-3). The interactions with Davinci are handled by a serverless AWS backend written in Python. The frontend is built with [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/) written in Typescript and is hosted on [Vercel](https://vercel.com/dashboard). User authentication is handled via [Firebase](https://firebase.google.com/). Rate limiting is implemented using [Redis](https://redis.com/).
 
 ![mailmatic-architecture](./img/mailmatic-architecture.png)
 
@@ -31,7 +31,7 @@ Now you need to set up the backend infrastructure in AWS. First, generate base l
 
 ```
 cd backend/infra/lambda_base_layer
-chmod -x generate_base_layer/sh
+chmod -x generate_base_layer.sh
 ./generate_base_layer
 ```
 
